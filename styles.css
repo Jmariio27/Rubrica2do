@@ -181,7 +181,7 @@ footer{
     grid-template-columns: repeat(2,1fr);
 }
 }
-@media screen  and (max-width: 460px){
+@media screen  and (max-width: 600px){
     .contenedor-tarjetas{
         display: grid;
         grid-template-columns: 1fr;
