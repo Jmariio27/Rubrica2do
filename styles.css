@@ -187,3 +187,39 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 700px){
+    nav .logo{
+        min-width: 100px;
+    }
+    nav .secondary.full{
+        display: none;
+
+    }
+    nav .secondary.mini{
+        display: block !important;
+    }
+
+    nav .secondary.mini .submenu{
+        background-color: #1E201E;
+        position: absolute;
+        display: none;
+        width: 200px;
+        right: 0;
+
+    }
+    nav .secondary.mini:hover .submenu{
+        
+        display: block;
+    }
+}
+@media screen  and (max-width: 460px){
+    nav .desktop{
+        display: none;
+    
+    }
+    
+    nav .mobile{
+        display: block;
+    }
+    
+}
